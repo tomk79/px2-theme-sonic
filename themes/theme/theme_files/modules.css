@@ -1,4 +1,12 @@
 /**
+ * module: themeEditorModules:layouts/color_belt
+ */
+.theme-color-belt {
+  background-color: #000;
+  color: #eee;
+  padding: 0.2em 2em; }
+
+/**
  * module: themeEditorModules:layouts/footer
  */
 /**

@@ -13,7 +13,7 @@ return call_user_func( function(){
 	// project
 
 	/** サイト名 */
-	$conf->name = 'broccoli module Pickles 2';
+	$conf->name = 'Pickles 2 Sonic';
 
 	/** コピーライト表記 */
 	$conf->copyright = 'Pickles 2 Project';

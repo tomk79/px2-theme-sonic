@@ -11,6 +11,16 @@
 
 	</head>
 	<body>
+<div class="theme-color-belt">
+<?php
+	$shoulder_menu = $px->site()->get_shoulder_menu();
+	echo( '<ul>' );
+	foreach( $shoulder_menu as $page_id ){
+		echo( '<li>'.$px->mk_link( $page_id ).'</li>' );
+	}
+	echo( '</ul>' );
+?>
+</div>
 <header class="theme-header">
 	<div class="theme-header__inner">
 		<div class="theme-header__si">
