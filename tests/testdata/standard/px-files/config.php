@@ -268,9 +268,9 @@ return call_user_func( function(){
 		'theme'=>'tomk79\pickles2\multitheme\theme::exec('.json_encode(array(
 			'param_theme_switch'=>'THEME',
 			'cookie_theme_switch'=>'THEME',
-			'path_theme_collection'=>'./px-files/themes/',
+			'path_theme_collection'=>'../../../themes/',
 			'attr_bowl_name_by'=>'data-contents-area',
-			'default_theme_id'=>'pickles2',
+			'default_theme_id'=>'theme',
 		)).')' ,
 
 		// Apache互換のSSIの記述を解決する
@@ -342,7 +342,7 @@ return call_user_func( function(){
 
 	/** broccoliモジュールセットの登録 */
 	$conf->plugins->px2dt->paths_module_template = array(
-		'pickles2' => './../../../modules/',
+		'pickles2' => './px-files/modules/',
 	);
 
 	/** プロジェクト固有のモジュールセットの格納ディレクトリ */

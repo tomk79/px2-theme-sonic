@@ -1,2 +1,10 @@
 "* path","* content","* id","* title","* title_breadcrumb","* title_h1","* title_label","* title_full","* logical_path","* list_flg","* layout","* orderby","* keywords","* description","* category_top_flg","* role","* proc_type","* **delete_flg"
-"/index.html",,,"ホーム",,,,,,1,"top",,,,,,,
+"/index.html",,,"HOME",,,,,,1,"top",,,,,,,
+"/cat1/index.html",,,"Category 1",,,,,,1,"",,,,1,,,
+"/cat1/sub1.html",,,"Sub 1",,,,,"/cat1/index.html",1,"",,,,,,,
+"/cat1/sub2.html",,,"Sub 2",,,,,"/cat1/index.html",1,"",,,,,,,
+"/cat1/sub3.html",,,"Sub 3",,,,,"/cat1/index.html",1,"",,,,,,,
+"/cat1/sub4.html",,,"Sub 4",,,,,"/cat1/index.html",1,"",,,,,,,
+"/cat2/index.html",,,"Category 2",,,,,,1,"",,,,1,,,
+"/cat3/index.html",,,"Category 3",,,,,,1,"",,,,1,,,
+"/cat4/index.html",,,"Category 4",,,,,,1,"",,,,1,,,
